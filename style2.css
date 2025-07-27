@@ -1,0 +1,22 @@
+/* Quy định chung cho <p> */
+p {
+  color: blue;
+  font-size: 100px;
+}
+
+/* Quy định riêng cho div cha */
+div {
+  width: 50%; /* Chiếm 50% chiều rộng phần tử cha */
+  font-size: 16px; /* Kích thước cơ sở cho em */
+}
+
+/* <p> bên trong <div> */
+div p {
+  font-size: 1.5em; /* 1.5 * 16px = 24px */
+}
+
+/* Tiêu đề */
+h1 {
+  font-size: 24px;
+}
+
