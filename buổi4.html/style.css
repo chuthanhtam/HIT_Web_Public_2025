@@ -1,0 +1,48 @@
+
+#heading{
+    color:blue;
+
+}
+text{
+    text {
+  text-decoration: line-through;
+  color: pink;
+}
+}
+ {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  box-sizing: border-box;
+}
+.wrapper > .content{
+    background-color:blue;
+    
+}
+.heading + .content {
+    background-color:red;
+}
+
+.wrap .item:not(.not-selected){
+    color:red;
+}
+button{
+    padding: 1rem;
+}
+button:hover{
+    color:white;
+    background:blue;
+
+}
+
+
+#text-id{
+    color:green;
+
+}
+#text class{
+    color:yellow;
+}
+h1{
+    color:turquoise;
+}
